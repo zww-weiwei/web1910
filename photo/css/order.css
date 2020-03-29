@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;box-sizing:border-box;}
+a{text-decoration:none;font-family:"微软雅黑";}
+li{list-style:none;}
+.clear{clear:both;}
+img{transition:0.5s;}
+.banner{width:100%;}
+/*标题_begin*/
+.title{
+	text-align:center;
+	font:normal 26px "微软雅黑";
+	color:#333;
+	padding:80px 0px;
+}
+.title span{
+	display:block;
+	font-size:16px;
+	color:#666;
+	text-transform:uppercase;
+	padding-top:10px;
+}
+/*标题_end*/
+/*我要预约_begin*/
+.order ul{
+	width:1000px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+.order ul li{
+	width:320px;
+	height:380px;
+	text-align:center;
+	position:relative;
+}
+.order ul li img{
+	margin-bottom:30px;
+}
+.order ul li h2{
+	font:normal 24px "微软雅黑";
+	margin-bottom:15px;
+}
+.order ul li p{
+	font-size:12px;
+	color:#666;
+}
+.order ul li input{
+	width:180px;
+	height:36px;
+	border:2px solid #41A0B9;
+	margin-top:10px;
+	border-radius:3px;
+	padding-left:5px;
+}
+.order ul li a{
+	display:block;
+	width:150px;
+	height:40px;
+	background:#41A0B9;
+	border-radius:5px;
+	font-size:15px;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	position:absolute;
+	top:330px;
+	left:50%;
+	margin-left:-75px;
+}
+/*我要预约_end*/
+/*服务类型_begin*/
+.type .bj{
+	width:100%;
+	background:#90B8C2;
+	padding:30px 0px;
+}
+.type ul{
+	width:1200px;
+	margin:0 auto;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-between;
+}
+.type ul li{
+	text-align:center;
+	width:316px;
+	color:#fff;
+}
+.type ul li .desc{
+	height:135px;
+}
+.type ul li:nth-child(2) .desc{
+	margin-top:15px;
+}
+.type ul li .desc h2{
+	font:normal 24px "微软雅黑";
+	padding-bottom:10px;
+}
+.type ul li .desc p{
+	font-size:15px;
+	line-height:26px;
+}
+.type ul li .pic{
+	width:316px;
+	height:379px;
+	overflow:hidden;
+}
+.type ul li:hover img{
+	transform:scale(1.1);
+}
+/*服务类型_end*/
+/*精选客片_begin*/
+.piece ul{
+	width:1200px;
+	margin:0 auto;
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-between;
+}
+.piece ul li{
+	width:386px;
+}
+.piece ul li div.pic{
+	width:386px;
+	height:561px;
+	overflow:hidden;
+}
+.piece ul li b{
+	display:none;
+	width:80%;
+	height:5px;
+	background:#51A7BF;
+	margin:20px auto 0px;
+}
+.piece ul li:hover img{
+	transform:scale(1.1);
+}
+.piece ul li.active b{
+	display:block;
+}
+.piece ul li:hover b{
+	display:block;
+}
+/*精选客片_end*/

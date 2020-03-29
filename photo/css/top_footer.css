@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;box-sizing:border-box;}
+a{text-decoration:none;font-family:"微软雅黑";}
+li{list-style:none;}
+.clear{clear:both;}
+/*top_css_begin*/
+header{width:100%;height:80px;background:#898989;}
+header .top{width: 1200px;margin: 0 auto;position:relative;}
+header .top .logo{float:left;margin:15px 30px 0px 0px;}
+header .top .nav{float:left;}
+header .top .nav li{float:left;padding:29px 20px;}
+header .top .nav li:hover{background:url(../image/top_foot_img/top_nav_bj.png) no-repeat 50% 85%;}
+header .top .nav li.active{background:url(../image/top_foot_img/top_nav_bj.png) no-repeat 50% 85%;}
+header .top .nav li:hover a{color:#faa;}
+header .top .nav li a{font-size:16px;color:#fff;}
+header .top .top_search{position:absolute;top:26px;left:1050px;}
+header .top .top_search input{width:160px;height:28px;border:1px solid #fff;border-radius:20px;background-color:transparent;padding-left:20px;}
+header .top .top_search input::-webkit-input-placeholder{color:#fff;}
+header .top .top_search input::-moz-input-placeholder{color:#fff;}
+header .top .top_search input::-moz-input-placeholder{color:#fff;}
+header .top .top_search input:-ms-input-placeholder{color:#fff;}
+header .top .top_search button{background:url(../image/top_foot_img/top_button_img.png) no-repeat;width:20px;height:20px;border:0px;position:absolute;top:4px;right:20px;cursor:pointer;}
+header .top .top_search button{background-size:20px 20px}
+/*top_css_end*/
+/*footer_begin*/
+footer{width:100%;background:#333;margin-top:100px;}
+footer .content{width:1200px;margin:0 auto;padding-top:50px;padding-bottom:30px;}
+footer .content li{float:left;margin-left:60px;color:#ccc;}
+footer .content li img{width:120px;}
+footer .content li span{display:block;text-align:center;font-size:15px;}
+footer .content li p{font-size:14px;line-height:22px;}
+footer .content li b{font-size:18px;color:#fff;}
+footer .content li .pad_top{padding-top:40px;}
+footer .foot{border-bottom:1px solid #ccc;}
+footer .copy{width:100%;background:#333;padding:20px 0px 30px;font-size:12px;text-align:center;color:#ccc;}
+footer .copy span{display:block;color:#999;line-height:24px;}
+
+
+

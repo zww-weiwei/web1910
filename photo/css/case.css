@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;box-sizing:border-box;}
+a{text-decoration:none;font-family:"微软雅黑";}
+li{list-style:none;}
+.clear{clear:both;}
+img{transition:0.5s;}
+.banner{width:100%;}
+/*客片欣赏_begin*/
+.title{text-align:center;margin:80px 0px;}
+.title h2{font:28px "黑体";color:#333;}
+.title b{display:block;width:30px;height:3px;background:#41a0b9;margin: 10px auto;}
+.title p{font-size:15px;color:#999;}
+.case_show ul{width:1200px;margin:0 auto;}
+.case_show ul li{float:left;width:380px;margin-right:30px;text-align:center;}
+.case_show ul li.last{margin-right:0px;}
+.case_show ul li div{width:380px;height:253px;overflow:hidden;}
+.case_show ul li:hover img{transform: scale(1.1);}
+.case_show ul li h2{font:24px "黑体";color:#41a0b9;padding:20px 0px;}
+.case_show ul li p{font-size:14px;line-height:24px;color:#999;}
+.case_show a{display: block;width:150px;height: 36px;border: 1px solid #41a0b9;margin:0 auto;font-size:14px;color:#333;text-align: center;line-height: 36px;margin-top:30px;border-radius:5px;}
+.case_show a:hover{background:#41a0b9;color:#fff;}
+/*客片欣赏_end*/
+/*客片推荐_begin*/
+.case_rec ul{width:100%;overflow: hidden;white-space: nowrap;margin-top: 100px;}
+.case_rec ul li{width:285px;margin-right: 20px;display: inline-block;cursor:pointer;}
+.case_rec ul li .img{width:285px;heightg:170px;overflow: hidden;}
+.case_rec ul li .img img{width:100%;height:170px;}
+.case_rec ul li.active b{display:block;width:60%;height:3px;background:#41a0b9;margin:0 auto;margin-top:10px;}
+.case_rec ul li:hover b{display:block;width:60%;height:3px;background:#41a0b9;margin:0 auto;margin-top:10px;}
+.case_rec ul li:hover img{transform:scale(1.1);}
+/*客片推荐_end*/
+/*拍摄预定_begin*/
+.case_reserve .content{width:1200px;margin:0 auto;position:relative;}
+.case_reserve .content .pic{width:1200px;height:400px;overflow:hidden;}
+.case_reserve .content .pic img{transition:0.5s;}
+.case_reserve .content .pic:hover img{transform:scale(1.1);}
+.case_reserve .content ul{position:absolute;bottom:0px;left:25px;}
+.case_reserve .content ul li{float:left;width:180px;height:40px;background:rgba(255,255,255,.5);margin-right:50px;text-align:center;color:#fff;line-height:40px;cursor:pointer;}
+.case_reserve .content ul li.active{background:#41a0b9;}
+.case_reserve .content ul li:hover{background:#41a0b9;}
+/*拍摄预定_end*/
+
+
+
+
+
+
+
+
+
+
+
+

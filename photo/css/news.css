@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;padding:0px;box-sizing:border-box;}
+a{text-decoration:none;font-family:"微软雅黑";}
+li{list-style:none;}
+.clear{clear:both;}
+.clear_both:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+img{transition:0.5s;}
+.banner{width:100%;}
+/*活动资讯_begin*/
+.title{margin:0 auto;padding-top:80px;text-align:center;}
+.title h3{font:32px "黑体";color:#333;padding-bottom:10px;}
+.title span{font-size:20px;color:#999;text-transform:uppercase;}
+.active .content{width:1200px;margin:0 auto;padding-top:100px;}
+.active .content .detail{width:707px;float:left;}
+.active .content .detail .article{padding:0px 80px 150px;}
+.active .content .detail .article h3{font:24px "黑体";text-align:center;color:#333;padding-bottom:20px;}
+.active .content .detail .article p{font-size:16px;line-height:28px;color:#666;text-indent:32px;}
+.active .content .detail .article p+p{padding-top:20px;}
+.active .content .detail span{display:block;font-size:16px;color:#666;padding-left:80px;}
+.active .content .detail span+span{padding-top:20px;}
+.active .content .detail span.origin{color:#259ACA;}
+.active .content .detail span:last-child{color:#333;}
+.active .content .pic{width:413px;float:right;margin-left:80px;}
+.active .content .pic img+img{margin-top:50px;}
+.active .page{width:135px;margin:0 auto;padding-top:100px;}
+.active .page a{font-size:16px;color:#333;}
+.active .page a:hover{color:#259ACA;}
+/*活动资讯_end*/
+/*结婚资讯_begin*/
+.marry{}
+.marry .nav{width:480px;margin:0 auto;padding-top:25px;}
+.marry .nav li{float:left;}
+.marry .nav li a{display:inline-block;width:100px;text-align:center;font-size:16px;color:#259ACA;padding:0px 10px;}
+.marry .nav li b{color:#999;}
+.marry .bj{width:100%;background:#90B8C2;padding:50px 0px;margin-top:100px;}
+.marry .bj .content{
+	width:1100px;
+	height:420px;
+	margin:0 auto;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+	align-items:center;
+	}
+.marry .bj .content li{width:500px;}
+.marry .bj .content li h2{font:24px "黑体";
+	color:#fff;
+}
+.marry .bj .content li b{display:block;
+	width:100%;
+	height:1px;
+	background:#fff;
+	margin:10px 0px;
+	}
+.marry .bj .content li p{font-size:16px;
+	color:#fff;
+	line-height:28px;
+}
+/*结婚资讯_end*/
+/*联系我们_begin*/
+.contact .content{
+	width:1050px;
+	height:480px;
+	margin:0 auto;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+.contact .content li{
+	width:350px;
+	text-align:center;
+}
+.contact .content li img{
+	width:120px;
+	height:120px;
+	margin-bottom:15px;
+}
+.contact .content li p{
+	font-size:15px;
+	color:#333;
+	line-height:26px;
+}
+/*联系我们_end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
